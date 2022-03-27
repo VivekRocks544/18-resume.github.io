@@ -1,0 +1,116 @@
+
+.slide{
+    width: 100%;
+    overflow: hidden;
+}
+div.slide h1{
+    animation: slide-left 4s;
+}
+
+@keyframes slide-left {
+    from{
+        margin-left: 4%;
+        width: 200%;
+    }
+
+    
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+    
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+  
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+
+.about{
+    width: 100%;
+    overflow: hidden;
+}
+div.about h1{
+    animation: slide-right 4s;
+}
+
+@keyframes slide-right {
+    from{
+        margin-left: -100%;
+        width: 200%;
+    }
+
+    
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+    
+}
+
+footer .item.social{
+    display: inline-block;
+}
+
+.navbar-brand{
+    font-family:'Pacifico';
+    font-size: 40px;
+    
+}
+
+ul .aacha{
+    color: #e43603;
+}
+ .collapse > a:after{
+    content: "";
+    position: absolute;
+    background-color: #e43603;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+
+}
+
+.collapse > a:hover:after{
+    width: 100%;
+
+}
